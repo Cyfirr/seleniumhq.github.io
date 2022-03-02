@@ -14,7 +14,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class InstallDriversTest {
     @Test
     public void chromeSession() {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup(); 
 
         WebDriver driver = new ChromeDriver();
 
